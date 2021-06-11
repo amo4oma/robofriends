@@ -1,0 +1,10 @@
+{
+  extends: ['airbnb-base', 'plugin:json/recommended'],
+  env: {
+    node: true
+  },
+  rules: {
+    no-warning-comments: [1, { 'terms': ['fixme'], 'location': 'anywhere' }],
+    prefer-destructuring: [1, { 'object': true, 'array': false }]
+  }
+}
